@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!--Container-->
+    <div class="flex items-center justify-center min-h-screen bg-cyan-50">
+        <!--card container-->
+        <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+            <!--Menu-->
+            <!--Menu-logo-->
+            <div class="flex flex-col items-center md:flex-row">
+                <i class="fa-solid fa-camera text-5xl mr-3"></i><span class="font-bold text-blue-500 text-3xl">Sh<span class="text-black font-normal">o</span>ts</span>
+            </div>
+            
+            <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
+                <!--Menu items-->
+                <div class="group font-semibold">
+                    <a href="">vector</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group font-semibold">
+                    <a href="">Illustrations</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>                
+                <div class="group font-semibold">
+                    <a href="">Images</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group font-semibold">
+                    <a href="">Icons</a>
+                    <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+            </div>
+            <!--Search container-->
+            <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+                <!--input-->
+                <div class="flex justify-between border-b">
+                    <input class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none" placeholder="search" type="text">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                    </button>
+                </div>
+
+                <!--upload button-->
+                <button class="button py-3 px-14 text-lg font-normal text-white border border-black bg-black rounded-md shadow-2xl duration-200 hover:bg-white hover:text-black">
+                    Upload
+                </button>
+            </div>
+
+            <!--Image Gallery Container-->
+            <div class="grid gap-4 md:grid-cols-3 xxl:grid-cols-5">
+                <!--Image 1-->
+                <div class="relative group">
+                    <img src="images/image1.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--image 2-->
+                <div class="relative group">
+                    <img src="images/image2.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--image 3-->
+                <div class="relative group">
+                    <img src="images/image3.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--image 4-->
+                <div class="relative group">
+                    <img src="images/image4.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--image-5-->
+                <div class="relative group">
+                    <img src="images/image5.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--image 6-->
+                <div class="relative group">
+                    <img src="images/image6.jpg" class="w-72" alt="">
+                    <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white
+                     duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                    
+                    <div class="flex justify-between w-full">
+                        <div class="font-normal">
+                            <p class="text-sm">Abstract painting</p>
+                            <p class="text-xs">
+                                <i class="fa-regular fa-heart mx-2"></i>
+                                <span>245</span> 
+                                <i class="fa-solid mx-2 fa-share"></i>
+                                <span>35</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
